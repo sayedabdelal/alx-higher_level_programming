@@ -1,3 +1,6 @@
 #!/bin/bash
 # Compile the Python file
 python3 -m py_compile "$PYFILE"
+file_del=$(ls __*)
+# Rename the compiled file
+mv "__pycache__/$file_del"  "my_main.pyc"
