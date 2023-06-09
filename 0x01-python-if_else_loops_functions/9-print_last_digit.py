@@ -6,4 +6,4 @@ def print_last_digit(number):
     elif number < 0:
         num = number % -(10)
         print(-(num), end="")
-    return (-num)
+    return abs(num)
