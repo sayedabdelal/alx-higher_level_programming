@@ -5,6 +5,9 @@ for i in range(1, 101):
     elif i % 3 == 0:
         print("Fizz ", end="")
     elif i % 5 == 0:
-        print("Buzz ")
+        if i == 100:
+            print("Buzz")
+        else:
+            print("Buzz ", end="")
     else:
         print("{} ".format(i), end="")
