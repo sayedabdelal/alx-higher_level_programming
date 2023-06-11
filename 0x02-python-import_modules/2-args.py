@@ -9,7 +9,7 @@ def main():
         print("{:d} argument.".format(0))
     else:
         print("{:d} arguments:".format(len_argv))
-        for i in range(1, len_argv):
+        for i in range(1, (len_argv + 1)):
             print("{}: {}".format(i, argv[i]))
 
 
