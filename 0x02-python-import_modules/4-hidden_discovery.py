@@ -7,7 +7,7 @@ def main():
     # Iterate over each name in the module_names list
     for name in module_names:
         # Check if the name starts with an underscore
-        if not name.startswith("__"):
+        if  name[:2] != "__":
             print(name)
 if __name__ == "__main__":
     main()
