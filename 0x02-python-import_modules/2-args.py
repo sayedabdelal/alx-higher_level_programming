@@ -6,11 +6,12 @@ def main():
     if len_argv == 0:
         print("{} arguments.".format(len_argv))
     elif len_argv == 1:
-        print("{:d} argument.".format(0))
+        print("{:d} argument.".format(1))
     else:
         print("{:d} arguments:".format(len_argv))
-        for i in range(1, (len_argv + 1)):
-            print("{}: {}".format(i, argv[i]))
+
+    for i in range(1, (len_argv + 1)):
+        print("{}: {}".format(i, argv[i]))
 
 
 if __name__ == "__main__":
