@@ -6,7 +6,7 @@ def main():
     if len_argv == 0:
         print("{} arguments.".format(len_argv))
     elif len_argv == 1:
-        print("{:d} argument.".format(1))
+        print("{:d} argument:".format(1))
     else:
         print("{:d} arguments:".format(len_argv))
 
