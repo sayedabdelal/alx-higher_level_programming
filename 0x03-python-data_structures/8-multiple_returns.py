@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    le_n = len(sentence)i
+    le_n = len(sentence)
     if le_n == 0:
         fst = "None"
     else:
