@@ -15,6 +15,10 @@ roman_num = {
 
 
 def roman_to_int(roman_string):
+    # isinstance check string or not
+    if isinstance(roman_string, str) or roman_string is None:
+        return 0
+
     sum = 0
     nums = [roman_num[i] for i in roman_string for k in roman_num if k == i]
 
