@@ -1,3 +1,1 @@
-#!/usr/bin/python3
-class Square:
-    pass
+#0x06-python-classes
