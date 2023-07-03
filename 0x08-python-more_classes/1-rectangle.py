@@ -6,13 +6,13 @@ class Rectangle:
     """Aepresents a rectangle"""
 
     def __init__(self, width=0, height=0):
-        """Initializing this rectangle class
+        """create this rectangle class
         Args:
             width: represents the width of the rectangle
             height: represents the height of the rectangle
         Raises:
-            TypeError: if size is not integer
-            ValueError: if size is less than zero
+            TypeError: if size is != integer
+            ValueError: if size is < zero
         """
         self.width = width
         self.height = height
@@ -38,7 +38,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """sets height attribute"""
+        """set height attribute"""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
