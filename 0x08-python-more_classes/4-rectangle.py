@@ -68,4 +68,4 @@ class Rectangle:
         return "".join(rct)
     
     def __repr__(self):
-        return "{}({}, {})".format(self.__class__.__name__, self.__width, self.__height)
+        return "Rectangle({}, {})".format(self.__width, self.__height)
