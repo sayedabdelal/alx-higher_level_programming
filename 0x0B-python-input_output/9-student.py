@@ -8,7 +8,7 @@ class Student:
         """Initialize a new Student.
 
         Args:
-            first_name (str): The first name of the student.
+            first_name : The first name of the student.
             last_name (str): The last name of the student.
             age (int): The age of the student.
         """
@@ -18,4 +18,4 @@ class Student:
 
     def to_json(self):
         """Gets a dictionary representation of the Student"""
-        self.__dict__
+        return self.__dict__
